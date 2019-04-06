@@ -1,0 +1,17 @@
+Refactor Proposal
+
+1) My store and bank each have two "addCustomer" and "UpdateQueue" functions. 
+I would like to combine those functions into two functions that can be shared between the store and the bank.
+
+I did not do this originally because they operate differently, but I can find the commonalities between the two protocols I will be able to combine this into two functions.
+
+2) I have common variables in both my grocery store function and my bank function, I would like to create refactor the names in my entire code so that the common names are identical so my code reads more identically.  Right now, visually the two functions visually look different, I want to highlight the differences by making the common parts of the code identical.
+
+3) I want to pull out my functions and put them into separate classes. So I will have a grocery store class, a bank class, and a simulation class. The simulation class  will have the functions that simulate both the grocery store and the bank (shared functions between the two classes). 
+
+ 
+The nature of my refactoring proposal means I will completely reorganize my code and layout with different function names, cleaner variables names, and more separate functions. 
+
+
+
+

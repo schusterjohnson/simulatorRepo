@@ -1,0 +1,31 @@
+#!/usr/local/bin/gnuplot
+
+
+set xyplane at 0
+set xlabel "Average Arrival Rate"
+show xlabel
+set ylabel "Maximum Service Time"
+show zlabel
+set zlabel "Average Wait Time"
+show zlabel
+set multiplot layout 2, 2
+set dgrid3d , , 1
+
+splot 'marketData' with pm3d
+
+set multiplot previous
+replot 'marketData' with points pt 7 ps 1
+splot 'bankData' with pm3d
+set multiplot previous
+replot 'bankData' with points pt 7 ps 1
+splot 'difference' with pm3d
+set multiplot previous
+replot 'difference' with points pt 7 ps 1
+splot 'percentage' with pm3d
+set multiplot previous
+replot 'percentage' with points pt 7 ps 1
+unset multiplot
+
+pause -1
+
+
