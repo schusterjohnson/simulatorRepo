@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/willdunn/GitWillDone/cs6015/simulatorRepo/main.cpp
+store.hpp
+/Users/willdunn/GitWillDone/cs6015/simulatorRepo/store.hpp
+
+/Users/willdunn/GitWillDone/cs6015/simulatorRepo/store.hpp
+
