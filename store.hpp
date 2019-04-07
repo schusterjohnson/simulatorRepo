@@ -9,6 +9,5 @@
 #ifndef store_hpp
 #define store_hpp
 
-#include <stdio.h>
-void openStore(double custArrivalRate, double maxCustomerServiceTime, int seed);
+void startSimulations(double custArrivalRate, double maxCustomerServiceTime, int seed);
 #endif /* store_hpp */

@@ -1,0 +1,10 @@
+Below are the following proposed changes for Sarah's simulatorRepo from Will Dunn:
+-account for arguments that are 0 and above, instead of 1+.
+-move functions specific to the grocery or bank into their own classes.
+-move .hpp includes into the .cpp because they are split amongst both right now
+-small formatting changes to adhere to clion style guide
+-alteration to variable names to fit Google C++ style guide
+-removed redundant castings (I.e., function returns double and double  variable is 
+cast to double before return)
+-alteration of variable names add clarity
+-removal of unused variables
